@@ -1,21 +1,11 @@
-.mppw-component-container h1{
-    color: white;
-    background-color: red;
-    text-align: center;
-    font-weight: 900;
-}
-
-h2 {
-    color: teal;
-    background-color: rgb(200,200,200);
-}
-
-button {
-    color:indigo;
-    background-color:#c0c5ee
-}
-
-p { 
-    color: olive;
-}
-
+:host {
+    --root-text-color: #555555;
+    --root-font-size: 14px;
+    --root-line-height: 24px;
+    --primary: #555555;
+  --secondary: #c98702; 
+  }
+  .mppw-component-container {
+    font-family: serif;
+    color: var(--root-text-color);
+    line-height: initial;
