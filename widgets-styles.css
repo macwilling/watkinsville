@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(255,255,255);
+}
+
+h1 {
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-weight: 900;
+}
+
+h2 {
+    color: teal;
+    background-color: rgb(200,200,200);
+}
+
+button {
+    color:indigo;
+    background-color:#c0c5ee
+}
+
+p { 
+    color: olive;
+}
